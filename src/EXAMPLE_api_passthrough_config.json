@@ -1,0 +1,11 @@
+{
+  "Extensions": {
+    "CustomExtensions": [
+      {
+        "ObjectIdentifier": "2.5.29.30",
+        "Value": "MFugPjASghAuZGV2LmV4YW1wbGUuY29tMBOCES5wcm9kLmV4YW1wbGUuY29tMBOCES50ZXN0LmV4YW1wbGUuY29toRkwF4IVLnByb2QuZGV2LmV4YW1wbGUuY29t",
+        "Critical": true
+      }
+    ]
+  }
+}
