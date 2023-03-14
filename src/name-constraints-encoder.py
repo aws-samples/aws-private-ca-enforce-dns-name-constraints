@@ -45,7 +45,7 @@ def main():
     args = parser.parse_args()
 
     permitted_subtrees = []
-    excluded_subtrees = []
+    excluded_subtrees = None
 
     if (not args.Permitted) and (not args.Excluded):
         raise ValueError(
@@ -60,6 +60,7 @@ def main():
 
     # Excluded Subtrees will override Permitted Subtrees
     if args.Excluded:
+        excluded_subtrees = []
         for exclude in args.Excluded.split(","):
             excluded_subtrees.append(DNSName(exclude))
 
